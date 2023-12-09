@@ -21,6 +21,9 @@
 - 1.2 支持 ChatGPT、ChatGLM、讯飞星火
 - 1.3 阿里通义千问 [@Vanffer](https://gitcode.net/weixin_60954617)
 - 1.4 讯飞开发用户自定义apihost、apikey [@H_X](#)
+- 1.5 @爱摸鱼的阿恒 对接腾讯混元、@南星泽月 对接百度文心一言
+- 1.6 @二十五六岁 对接 Google PaLM2
+- 1.7 @一乡风 对接 360 智脑
 
 ## 二、对接计划
 
@@ -30,9 +33,9 @@
 - [x] [智谱 ChatGLM 系列模型](https://bigmodel.cn/) - `对接 50% - 流式应答 | 剩余可对接 CharacterGLM 角色扮演`
 - [x] [百度文心一言系列模型](https://cloud.baidu.com/doc/WENXINWORKSHOP/index.html) - `对接 40% - 流式应答 | 剩余可对接图像、向量等`
 - [x] [腾讯混元大模型](https://cloud.tencent.com/document/product/1729) - `对接 30% - 流式应答 | 剩余可对接文生图等`
+- [x] [Google PaLM2 系列模型](https://developers.generativeai.google/)  - `对接 40% - 流式应答`
+- [x] [360 智脑](https://ai.360.cn/)  - `对接 100% - 流式应答`
 - [ ] [Anthropic Claude 系列模型](https://www.anthropic.com/) - `对接 0%`
-- [ ] [Google PaLM2 系列模型](https://developers.generativeai.google/)  - `对接 0%`
-- [ ] [360 智脑](https://ai.360.cn/)  - `对接 0%`
 
 ## 三、需求开发
 
@@ -46,12 +49,14 @@
 
 以上开发内容，小傅哥会陆续的提交代码，你可以赶在我的前面实现，这样可以很好和我的开发进行对比，学习设计思想和落地实现。
 
-### 2. 需求提报 - [请进入开发社区](https://bugstack.cn/md/zsxq/project/openai-sdk-java.html)
+### 2. 需求提报
 
-- [x] @Vanffer 对接阿里-通义千问
-- [x] @H_X 对接讯飞星火
-- [x] @爱摸鱼的阿恒 对接腾讯混元
-- [x] @南星泽月 对接百度文心一言
+- [x] [@Vanffer](https://gitcode.net/weixin_60954617) 对接阿里-通义千问
+- [x] [@H_X](javascript:void(0)) 对接讯飞星火
+- [x] [@爱摸鱼的阿恒](https://gitcode.net/focuxin) 对接腾讯混元
+- [x] [@南星泽月](https://gitcode.net/qq_34246962) 对接百度文心一言
+- [x] [@二十五六岁](https://gitcode.net/qq_40803626) 对接 Google PaLM2
+- [x] [@一乡风](https://gitcode.net/weixin_43228360) 对接360智脑
 - [ ] 开发需求前，先在这里提报。格式为 `- [ ] @xxx 开发xxxx功能，预计xxx时间完成。` 操作为 `fork代码，更新此文档这部分，并提交pr。需求开发完成后[ ] 修改为 [x]`
 
 ## 四、安装使用
@@ -60,7 +65,7 @@
 <dependency>
     <groupId>cn.bugstack</groupId>
     <artifactId>openai-sdk-java</artifactId>
-    <version>1.4</version>
+    <version>1.7</version>
 </dependency>
 ```
 
